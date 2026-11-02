@@ -23,11 +23,25 @@ const greeting = {
   username: "Pasindu Sandeep",
   title: "Hi all, I'm Pasindu",
   subTitle: emoji(
-    "A passionate Full Stack Software Engineer 🚀 with hands-on experience building scalable web applications using React, Next.js and Angular. I specialize in developing backend systems with Java, Golang designing RESTful APIs, and orchestrating Docker-based environments. I'm focused on writing clean, maintainable code and creating exceptional digital experiences with modern technologies."
+    "A passionate Full Stack Software Engineer 🚀 with hands-on experience building scalable web applications using React."
   ),
   resumeLink:
     "https://drive.google.com/file/d/1ofFdKF_mqscH8WvXkSObnVvC9kK7Ldlu/view?usp=sharing", // Set to empty to hide the button
   displayGreeting: true // Set false to hide this section, defaults to true
+};
+
+const about = {
+  profile: require("./assets/images/profile.png"),
+
+  description: [
+    "Hey there! 👋 I'm Pasindu Sandeep, a passionate Full Stack Software Engineer from Sri Lanka 🇱🇰.",
+
+    "I specialize in crafting modern, scalable, and user-friendly web applications with React, Next.js, and Angular, while building robust backend systems using Java and Golang.",
+
+    "From designing seamless RESTful APIs to managing containerized environments with Docker, I bring ideas to life through clean code, creative problem-solving, and a passion for technology.",
+
+    "My mission? To build software that doesn't just work — it makes an impact. ✨"
+  ]
 };
 
 // Social Media Links
@@ -89,12 +103,20 @@ https://fontawesome.com/icons?d=gallery */
       fontAwesomeClassname: "fab fa-node"
     },
     {
-      skillName: "swift",
-      fontAwesomeClassname: "fab fa-swift"
+      skillName: "GoLang",
+      fontAwesomeClassname: "devicon-go-original-wordmark"
     },
     {
-      skillName: "npm",
-      fontAwesomeClassname: "fab fa-npm"
+      skillName: "Java",
+      fontAwesomeClassname: "fab fa-java"
+    },
+    {
+      skillName: "python",
+      fontAwesomeClassname: "fab fa-python"
+    },
+    {
+      skillName: "C++",
+      fontAwesomeClassname: "devicon-cplusplus-plain"
     },
     {
       skillName: "sql-database",
@@ -107,10 +129,6 @@ https://fontawesome.com/icons?d=gallery */
     {
       skillName: "firebase",
       fontAwesomeClassname: "fas fa-fire"
-    },
-    {
-      skillName: "python",
-      fontAwesomeClassname: "fab fa-python"
     },
     {
       skillName: "docker",
@@ -128,13 +146,10 @@ const educationInfo = {
     {
       schoolName: "University of Moratuwa",
       logo: require("./assets/images/uom_logo.png"),
-      subHeader: "Master of Science in Computer Science",
+      subHeader:
+        "Master of Science in Computer Science - specialized in Software Architecture",
       duration: "September 2026 - present",
-      desc: "Participated in the research of XXX and published 3 papers.",
-      descBullets: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
-      ]
+      desc: "Software Architecture Concepts, Advanced Data Structures, Parallel and Concurrent Programming, Software Development on Cloud Platform"
     },
     {
       schoolName: "University of Moratuwa",
@@ -142,8 +157,7 @@ const educationInfo = {
       subHeader:
         "BSc. Eng. (Hons) in Electronic and Telecommunication Engineering ",
       duration: "August 2021 - July 2025",
-      desc: "Ranked top 10% in the program. Took courses about Software Engineering, Web Security, Operating Systems, ...",
-      descBullets: ["Lorem ipsum dolor sit amet, consectetur adipiscing elit"]
+      desc: "Data Structures and Algorithms, Modular Software Design, Internet of Things, Deep Learning for Vision, Networking Foundamentals"
     }
   ]
 };
@@ -247,9 +261,7 @@ const bigProjects = {
 // Include certificates, talks etc
 
 const achievementSection = {
-  title: emoji("Achievements And Certifications 🏆 "),
-  subtitle:
-    "Achievements, Certifications, Award Letters and Some Cool Stuff that I have done !",
+  title: emoji("Certifications"),
 
   achievementsCards: [
     {
@@ -389,6 +401,7 @@ const isHireable = false; // Set false if you are not looking for a job. Also is
 export {
   illustration,
   greeting,
+  about,
   socialMediaLinks,
   splashScreen,
   skillsSection,

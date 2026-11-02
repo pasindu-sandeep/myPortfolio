@@ -19,6 +19,70 @@
   color: $subTitle;
 }
 
+.software-skill-inline[data-skill="html-5"] > i {
+  color: #e34f26;
+}
+
+.software-skill-inline[data-skill="css3"] > i {
+  color: #1572b6;
+}
+
+.software-skill-inline[data-skill="sass"] > i {
+  color: #cc6699;
+}
+
+.software-skill-inline[data-skill="JavaScript"] > i {
+  color: #f7df1e;
+}
+
+.software-skill-inline[data-skill="reactjs"] > i {
+  color: #61dafb;
+}
+
+.software-skill-inline[data-skill="nodejs"] > i {
+  color: #339933;
+}
+
+.software-skill-inline[data-skill="GoLang"] > i {
+  color: #00add8;
+}
+
+.software-skill-inline[data-skill="Java"] > i {
+  color: #f89820;
+}
+
+.software-skill-inline[data-skill="C++"] > i {
+  color: #00599c;
+}
+
+.software-skill-inline[data-skill="swift"] > i {
+  color: #f05138;
+}
+
+.software-skill-inline[data-skill="npm"] > i {
+  color: #cb3837;
+}
+
+.software-skill-inline[data-skill="sql-database"] > i {
+  color: #4479a1;
+}
+
+.software-skill-inline[data-skill="aws"] > i {
+  color: #ff9900;
+}
+
+.software-skill-inline[data-skill="firebase"] > i {
+  color: #ffca28;
+}
+
+.software-skill-inline[data-skill="python"] > i {
+  color: #3776ab;
+}
+
+.software-skill-inline[data-skill="docker"] > i {
+  color: #2496ed;
+}
+
 .software-skill-inline > i:hover {
   color: $skillsColor;
 }

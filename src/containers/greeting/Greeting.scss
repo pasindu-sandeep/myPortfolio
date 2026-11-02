@@ -54,8 +54,20 @@
 }
 
 .greeting-image-div > img {
-  max-width: 100%;
+  max-width: 75%;
+  max-width: 450px;
   height: auto;
+}
+
+.greeting-image-div > div {
+  width: 75%;
+  max-width: 550px;
+  margin: 0 auto;
+}
+
+.greeting-image-div > div > svg {
+  width: 100% !important;
+  height: auto !important;
 }
 
 .wave-emoji {
