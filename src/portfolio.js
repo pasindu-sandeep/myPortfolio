@@ -23,7 +23,7 @@ const greeting = {
   username: "Pasindu Sandeep",
   title: "Hi all, I'm Pasindu",
   subTitle: emoji(
-    "A passionate Full Stack Software Developer 🚀 having an experience of building Web and Mobile applications with JavaScript / Reactjs / Nodejs / React Native and some other cool libraries and frameworks."
+    "A passionate Full Stack Software Engineer 🚀 with hands-on experience building scalable web applications using React, Next.js and Angular. I specialize in developing backend systems with Java, Golang designing RESTful APIs, and orchestrating Docker-based environments. I'm focused on writing clean, maintainable code and creating exceptional digital experiences with modern technologies."
   ),
   resumeLink:
     "https://drive.google.com/file/d/1ofFdKF_mqscH8WvXkSObnVvC9kK7Ldlu/view?usp=sharing", // Set to empty to hide the button
@@ -33,9 +33,9 @@ const greeting = {
 // Social Media Links
 
 const socialMediaLinks = {
-  github: "https://github.com/saadpasta",
+  github: "https://github.com/pasindu-sandeep",
   linkedin: "https://www.linkedin.com/in/saadpasta/",
-  gmail: "saadpasta70@gmail.com",
+  gmail: "pasindusandeep20@gmail.com",
   gitlab: "https://gitlab.com/saadpasta",
   facebook: "https://www.facebook.com/saad.pasta7",
   medium: "https://medium.com/@saadpasta",
@@ -126,10 +126,10 @@ const educationInfo = {
   display: true, // Set false to hide this section, defaults to true
   schools: [
     {
-      schoolName: "Harvard University",
-      logo: require("./assets/images/harvardLogo.png"),
+      schoolName: "University of Moratuwa",
+      logo: require("./assets/images/uom_logo.png"),
       subHeader: "Master of Science in Computer Science",
-      duration: "September 2017 - April 2019",
+      duration: "September 2026 - present",
       desc: "Participated in the research of XXX and published 3 papers.",
       descBullets: [
         "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
@@ -137,10 +137,11 @@ const educationInfo = {
       ]
     },
     {
-      schoolName: "Stanford University",
-      logo: require("./assets/images/stanfordLogo.png"),
-      subHeader: "Bachelor of Science in Computer Science",
-      duration: "September 2013 - April 2017",
+      schoolName: "University of Moratuwa",
+      logo: require("./assets/images/uom_logo.png"),
+      subHeader:
+        "BSc. Eng. (Hons) in Electronic and Telecommunication Engineering ",
+      duration: "August 2021 - July 2025",
       desc: "Ranked top 10% in the program. Took courses about Software Engineering, Web Security, Operating Systems, ...",
       descBullets: ["Lorem ipsum dolor sit amet, consectetur adipiscing elit"]
     }
@@ -175,9 +176,9 @@ const workExperiences = {
   experience: [
     {
       role: "Software Engineer",
-      company: "Facebook",
-      companylogo: require("./assets/images/facebookLogo.png"),
-      date: "June 2018 – Present",
+      company: "Kast Finance",
+      companylogo: require("./assets/images/kast_logo.png"),
+      date: "June 2025 – August 2026",
       desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
       descBullets: [
         "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
@@ -185,17 +186,17 @@ const workExperiences = {
       ]
     },
     {
-      role: "Front-End Developer",
-      company: "Quora",
-      companylogo: require("./assets/images/quoraLogo.png"),
-      date: "May 2017 – May 2018",
+      role: "Software Engineer",
+      company: "Zero One Technologies",
+      companylogo: require("./assets/images/zero_one_logo.png"),
+      date: "June 2024 – June 2025",
       desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
     },
     {
       role: "Software Engineer Intern",
-      company: "Airbnb",
-      companylogo: require("./assets/images/airbnbLogo.png"),
-      date: "Jan 2015 – Sep 2015",
+      company: "Zebra Technologies",
+      companylogo: require("./assets/images/zebra_logo.png"),
+      date: "November 2023 – May 2024",
       desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
     }
   ]
@@ -372,8 +373,8 @@ const contactInfo = {
   title: emoji("Contact Me ☎️"),
   subtitle:
     "Discuss a project or just want to say hi? My Inbox is open for all.",
-  number: "+92-0000000000",
-  email_address: "saadpasta70@gmail.com"
+  number: "+94-717159789",
+  email_address: "pasindusandeep20@gmail.com"
 };
 
 // Twitter Section
