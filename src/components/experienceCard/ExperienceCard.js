@@ -1,8 +1,9 @@
 import React, {useState, createRef} from "react";
 import "./ExperienceCard.scss";
 import ColorThief from "colorthief";
+import {skillsSection} from "../../portfolio";
 
-export default function ExperienceCard({cardInfo, isDark}) {
+export default function ExperienceCard({cardInfo, isDark, onClick}) {
   const [colorArrays, setColorArrays] = useState([]);
   const imgRef = createRef();
 
@@ -31,7 +32,19 @@ export default function ExperienceCard({cardInfo, isDark}) {
   };
 
   return (
-    <div className={isDark ? "experience-card-dark" : "experience-card"}>
+    <div
+      className={isDark ? "experience-card-dark" : "experience-card"}
+      onClick={onClick}
+      onKeyDown={event => {
+        if (event.key === "Enter" || event.key === " ") {
+          event.preventDefault();
+          onClick();
+        }
+      }}
+      role="button"
+      tabIndex={0}
+      aria-label={`View details for ${cardInfo.company}`}
+    >
       <div style={{background: rgb(colorArrays)}} className="experience-banner">
         <div className="experience-blurred_div"></div>
         <div className="experience-div-company">
@@ -66,15 +79,23 @@ export default function ExperienceCard({cardInfo, isDark}) {
         >
           {cardInfo.date}
         </h5>
-        <p
-          className={
-            isDark
-              ? "subTitle experience-text-desc dark-mode-text"
-              : "subTitle experience-text-desc"
-          }
-        >
-          {cardInfo.desc}
-        </p>
+        <div className="software-skills-main-div">
+          <ul className="dev-icons experience-card-skills">
+            {cardInfo.techstack.map((skills, i) => {
+              return (
+                <li
+                  key={i}
+                  className="software-skill-inline"
+                  name={skills.skillName}
+                  data-skill={skills.skillName}
+                >
+                  <i className={skills.fontAwesomeClassname}></i>
+                  <p>{skills.skillName}</p>
+                </li>
+              );
+            })}
+          </ul>
+        </div>
         <ul>
           <GetDescBullets descBullets={cardInfo.descBullets} isDark={isDark} />
         </ul>

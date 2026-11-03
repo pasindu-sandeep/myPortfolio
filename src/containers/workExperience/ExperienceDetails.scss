@@ -1,0 +1,81 @@
+@import "../../_globalColor";
+
+.experience-details {
+  min-height: 100vh;
+  padding: 2rem 5%;
+  box-sizing: border-box;
+}
+
+.experience-details-back {
+  background: transparent;
+  border: 0;
+  color: $buttonColor;
+  cursor: pointer;
+  font: inherit;
+  padding: 0.5rem 0;
+}
+
+.experience-details-card {
+  background: $lightBackground2;
+  border: 1px solid $lightBorder1;
+  border-radius: 10px;
+  box-shadow: $lightBoxShadowDark 0 10px 30px -15px;
+  color: $textColor;
+  margin: 3rem auto;
+  max-width: 800px;
+  padding: 3rem;
+  text-align: center;
+}
+
+.dark-mode .experience-details-card {
+  background: $darkBackground;
+  color: $textColorDark;
+}
+
+.experience-details-logo {
+  border-radius: 50%;
+  height: 9rem;
+  object-fit: cover;
+  width: 9rem;
+}
+
+.experience-details-date {
+  color: $subTitle;
+  font-weight: 600;
+  margin-bottom: 2rem;
+}
+
+.experience-details-card h1 {
+  margin-bottom: 0.5rem;
+}
+
+.experience-details-card h2 {
+  font-size: 1.4rem;
+  font-weight: 600;
+  margin-top: 0;
+}
+
+.experience-details-description {
+  line-height: 1.7;
+  margin: 2rem auto;
+  max-width: 650px;
+}
+
+.experience-details-card ul {
+  line-height: 1.7;
+  margin: 0 auto;
+  max-width: 650px;
+  padding-left: 1.5rem;
+  text-align: left;
+}
+
+@media (max-width: 768px) {
+  .experience-details {
+    padding: 1.5rem;
+  }
+
+  .experience-details-card {
+    margin-top: 2rem;
+    padding: 2rem 1.5rem;
+  }
+}

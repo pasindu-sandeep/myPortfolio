@@ -20,13 +20,15 @@ export default function WorkExperience() {
                     <ExperienceCard
                       key={i}
                       isDark={isDark}
+                      onClick={() => {
+                        window.location.hash = `#/experience/${i}`;
+                      }}
                       cardInfo={{
                         company: card.company,
-                        desc: card.desc,
+                        techstack: card.techstack,
                         date: card.date,
                         companylogo: card.companylogo,
-                        role: card.role,
-                        descBullets: card.descBullets
+                        role: card.role
                       }}
                     />
                   );

@@ -50,12 +50,8 @@ const socialMediaLinks = {
   github: "https://github.com/pasindu-sandeep",
   linkedin: "https://www.linkedin.com/in/saadpasta/",
   gmail: "pasindusandeep20@gmail.com",
-  gitlab: "https://gitlab.com/saadpasta",
   facebook: "https://www.facebook.com/saad.pasta7",
-  medium: "https://medium.com/@saadpasta",
-  stackoverflow: "https://stackoverflow.com/users/10422806/saad-pasta",
-  // Instagram, Twitter and Kaggle are also supported in the links!
-  // To customize icons and social links, tweak src/components/SocialMedia
+  medium: "https://medium.com/@pasindusandeep20",
   display: true // Set true to display this section, defaults to false
 };
 
@@ -193,8 +189,37 @@ const workExperiences = {
       company: "Kast Finance",
       companylogo: require("./assets/images/kast_logo.png"),
       date: "June 2025 – August 2026",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-      descBullets: [
+      techstack: [
+        {
+          skillName: "reactjs",
+          fontAwesomeClassname: "fab fa-react"
+        },
+        {
+          skillName: "tailwindcss",
+          fontAwesomeClassname: "devicon-tailwindcss-plain"
+        },
+        {
+          skillName: "GoLang",
+          fontAwesomeClassname: "devicon-go-original-wordmark"
+        },
+        {
+          skillName: "postgresql",
+          fontAwesomeClassname: "devicon-postgresql-plain"
+        },
+        {
+          skillName: "aws",
+          fontAwesomeClassname: "fab fa-aws"
+        },
+        {
+          skillName: "github",
+          fontAwesomeClassname: "fab fa-github"
+        },
+        {
+          skillName: "kafka",
+          fontAwesomeClassname: "devicon-apachekafka-original"
+        }
+      ],
+      responsibilities: [
         "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
         "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
       ]
@@ -204,14 +229,48 @@ const workExperiences = {
       company: "Zero One Technologies",
       companylogo: require("./assets/images/zero_one_logo.png"),
       date: "June 2024 – June 2025",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+      techstack: [
+        {
+          skillName: "html-5",
+          fontAwesomeClassname: "fab fa-html5"
+        },
+        {
+          skillName: "css3",
+          fontAwesomeClassname: "fab fa-css3-alt"
+        },
+        {
+          skillName: "sass",
+          fontAwesomeClassname: "fab fa-sass"
+        }
+      ],
+      responsibilities: [
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+      ]
     },
     {
       role: "Software Engineer Intern",
       company: "Zebra Technologies",
       companylogo: require("./assets/images/zebra_logo.png"),
       date: "November 2023 – May 2024",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+      techstack: [
+        {
+          skillName: "html-5",
+          fontAwesomeClassname: "fab fa-html5"
+        },
+        {
+          skillName: "css3",
+          fontAwesomeClassname: "fab fa-css3-alt"
+        },
+        {
+          skillName: "sass",
+          fontAwesomeClassname: "fab fa-sass"
+        }
+      ],
+      responsibilities: [
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+      ]
     }
   ]
 };
@@ -227,29 +286,29 @@ const openSource = {
 // Some big projects you have worked on
 
 const bigProjects = {
-  title: "Big Projects",
+  title: "Personal Projects",
   subtitle: "SOME STARTUPS AND COMPANIES THAT I HELPED TO CREATE THEIR TECH",
   projects: [
     {
-      image: require("./assets/images/saayaHealthLogo.webp"),
-      projectName: "Saayahealth",
+      image: require("./assets/images/sunteclanka.png"),
+      projectName: "SuntecLanka",
       projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
       footerLink: [
         {
           name: "Visit Website",
-          url: "http://saayahealth.com/"
+          url: "http://sunteclanka.lk/"
         }
         //  you can add extra buttons here.
       ]
     },
     {
-      image: require("./assets/images/nextuLogo.webp"),
-      projectName: "Nextu",
+      image: require("./assets/images/bms1.png"),
+      projectName: "Baggage Monitoring System",
       projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
       footerLink: [
         {
-          name: "Visit Website",
-          url: "http://nextu.se/"
+          name: "LinkedIn Post",
+          url: "https://lnkd.in/p/gwzNcmHb"
         }
       ]
     }
@@ -265,23 +324,20 @@ const achievementSection = {
 
   achievementsCards: [
     {
-      title: "Google Code-In Finalist",
+      title: "AWS Certified Solutions Architect",
       subtitle:
-        "First Pakistani to be selected as Google Code-in Finalist from 4000 students from 77 different countries.",
-      image: require("./assets/images/codeInLogo.webp"),
+        "Followed the AWS Certified Solutions Architect - Associate course",
+      image: require("./assets/images/aws-solution_architect.png"),
       imageAlt: "Google Code-In Logo",
       footerLink: [
         {
-          name: "Certification",
-          url: "https://drive.google.com/file/d/0B7kazrtMwm5dYkVvNjdNWjNybWJrbndFSHpNY2NFV1p4YmU0/view?usp=sharing"
+          name: "Certification"
         },
         {
-          name: "Award Letter",
-          url: "https://drive.google.com/file/d/0B7kazrtMwm5dekxBTW5hQkg2WXUyR3QzQmR0VERiLXlGRVdF/view?usp=sharing"
+          name: "Award Letter"
         },
         {
-          name: "Google Code-in Blog",
-          url: "https://opensource.googleblog.com/2019/01/google-code-in-2018-winners.html"
+          name: "Google Code-in Blog"
         }
       ]
     },
