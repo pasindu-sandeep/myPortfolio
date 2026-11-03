@@ -1,14 +1,17 @@
 {
   "files": {
-    "main.css": "/myPortfolio/static/css/main.5de7cee2.css",
-    "main.js": "/myPortfolio/static/js/main.57fce673.js",
+    "main.css": "/myPortfolio/static/css/main.78c41548.css",
+    "main.js": "/myPortfolio/static/js/main.c930c404.js",
     "static/css/487.bb36206c.chunk.css": "/myPortfolio/static/css/487.bb36206c.chunk.css",
     "static/js/487.e5913094.chunk.js": "/myPortfolio/static/js/487.e5913094.chunk.js",
     "static/css/990.c6a7ee28.chunk.css": "/myPortfolio/static/css/990.c6a7ee28.chunk.css",
-    "static/js/990.b68ad525.chunk.js": "/myPortfolio/static/js/990.b68ad525.chunk.js",
+    "static/js/990.ce45beec.chunk.js": "/myPortfolio/static/js/990.ce45beec.chunk.js",
     "static/media/profile.png": "/myPortfolio/static/media/profile.3112d9dd0072fe842d2a.png",
+    "static/media/bms1.png": "/myPortfolio/static/media/bms1.ef74e0959dd3dff43ad3.png",
     "static/media/resume.pdf": "/myPortfolio/static/media/resume.eaa6c8c22d2886847df2.pdf",
     "static/media/Montserrat-Regular.ttf": "/myPortfolio/static/media/Montserrat-Regular.3cd786652b8a2e9d41f2.ttf",
+    "static/media/sunteclanka.png": "/myPortfolio/static/media/sunteclanka.62798823c41213e14165.png",
+    "static/media/aws-solution_architect.png": "/myPortfolio/static/media/aws-solution_architect.b921da3aeeb487baa4dc.png",
     "static/media/uom_logo.png": "/myPortfolio/static/media/uom_logo.6b16f5ea3441e25adbe8.png",
     "static/media/Agustina.woff": "/myPortfolio/static/media/Agustina.eb0c59dda4cc308cba96.woff",
     "static/media/manOnTable.svg": "/myPortfolio/static/media/manOnTable.8f117eb207e57ed8f89d67d595aceb45.svg",
@@ -17,20 +20,17 @@
     "static/media/zebra_logo.png": "/myPortfolio/static/media/zebra_logo.aeb9e815f912f1143ab4.png",
     "static/media/googleAssistantLogo.webp": "/myPortfolio/static/media/googleAssistantLogo.f720c71652579588524a.webp",
     "static/media/kast_logo.png": "/myPortfolio/static/media/kast_logo.f3b2da307af3fce0258d.png",
-    "static/media/codeInLogo.webp": "/myPortfolio/static/media/codeInLogo.e41a71d512efeda2a55c.webp",
     "static/media/pwaLogo.webp": "/myPortfolio/static/media/pwaLogo.8bf2293da0ca66249e37.webp",
-    "static/media/saayaHealthLogo.webp": "/myPortfolio/static/media/saayaHealthLogo.60b27d1f184fadfce43a.webp",
-    "static/media/nextuLogo.webp": "/myPortfolio/static/media/nextuLogo.e033dbfa4c58c0a906aa.webp",
     "index.html": "/myPortfolio/index.html",
-    "main.5de7cee2.css.map": "/myPortfolio/static/css/main.5de7cee2.css.map",
-    "main.57fce673.js.map": "/myPortfolio/static/js/main.57fce673.js.map",
+    "main.78c41548.css.map": "/myPortfolio/static/css/main.78c41548.css.map",
+    "main.c930c404.js.map": "/myPortfolio/static/js/main.c930c404.js.map",
     "487.bb36206c.chunk.css.map": "/myPortfolio/static/css/487.bb36206c.chunk.css.map",
     "487.e5913094.chunk.js.map": "/myPortfolio/static/js/487.e5913094.chunk.js.map",
     "990.c6a7ee28.chunk.css.map": "/myPortfolio/static/css/990.c6a7ee28.chunk.css.map",
-    "990.b68ad525.chunk.js.map": "/myPortfolio/static/js/990.b68ad525.chunk.js.map"
+    "990.ce45beec.chunk.js.map": "/myPortfolio/static/js/990.ce45beec.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.5de7cee2.css",
-    "static/js/main.57fce673.js"
+    "static/css/main.78c41548.css",
+    "static/js/main.c930c404.js"
   ]
 }
