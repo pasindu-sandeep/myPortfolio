@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/myPortfolio/static/css/main.78c41548.css",
+    "main.css": "/myPortfolio/static/css/main.dc7a9826.css",
     "main.js": "/myPortfolio/static/js/main.c930c404.js",
     "static/css/487.bb36206c.chunk.css": "/myPortfolio/static/css/487.bb36206c.chunk.css",
     "static/js/487.e5913094.chunk.js": "/myPortfolio/static/js/487.e5913094.chunk.js",
@@ -22,7 +22,7 @@
     "static/media/kast_logo.png": "/myPortfolio/static/media/kast_logo.f3b2da307af3fce0258d.png",
     "static/media/pwaLogo.webp": "/myPortfolio/static/media/pwaLogo.8bf2293da0ca66249e37.webp",
     "index.html": "/myPortfolio/index.html",
-    "main.78c41548.css.map": "/myPortfolio/static/css/main.78c41548.css.map",
+    "main.dc7a9826.css.map": "/myPortfolio/static/css/main.dc7a9826.css.map",
     "main.c930c404.js.map": "/myPortfolio/static/js/main.c930c404.js.map",
     "487.bb36206c.chunk.css.map": "/myPortfolio/static/css/487.bb36206c.chunk.css.map",
     "487.e5913094.chunk.js.map": "/myPortfolio/static/js/487.e5913094.chunk.js.map",
@@ -30,7 +30,7 @@
     "990.ce45beec.chunk.js.map": "/myPortfolio/static/js/990.ce45beec.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.78c41548.css",
+    "static/css/main.dc7a9826.css",
     "static/js/main.c930c404.js"
   ]
 }
