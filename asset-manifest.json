@@ -1,11 +1,11 @@
 {
   "files": {
     "main.css": "/myPortfolio/static/css/main.dc7a9826.css",
-    "main.js": "/myPortfolio/static/js/main.c930c404.js",
+    "main.js": "/myPortfolio/static/js/main.d3049d6c.js",
     "static/css/487.bb36206c.chunk.css": "/myPortfolio/static/css/487.bb36206c.chunk.css",
-    "static/js/487.e5913094.chunk.js": "/myPortfolio/static/js/487.e5913094.chunk.js",
+    "static/js/487.e12dc1be.chunk.js": "/myPortfolio/static/js/487.e12dc1be.chunk.js",
     "static/css/990.c6a7ee28.chunk.css": "/myPortfolio/static/css/990.c6a7ee28.chunk.css",
-    "static/js/990.ce45beec.chunk.js": "/myPortfolio/static/js/990.ce45beec.chunk.js",
+    "static/js/990.fad5712a.chunk.js": "/myPortfolio/static/js/990.fad5712a.chunk.js",
     "static/media/profile.png": "/myPortfolio/static/media/profile.3112d9dd0072fe842d2a.png",
     "static/media/bms1.png": "/myPortfolio/static/media/bms1.ef74e0959dd3dff43ad3.png",
     "static/media/resume.pdf": "/myPortfolio/static/media/resume.eaa6c8c22d2886847df2.pdf",
@@ -23,14 +23,14 @@
     "static/media/pwaLogo.webp": "/myPortfolio/static/media/pwaLogo.8bf2293da0ca66249e37.webp",
     "index.html": "/myPortfolio/index.html",
     "main.dc7a9826.css.map": "/myPortfolio/static/css/main.dc7a9826.css.map",
-    "main.c930c404.js.map": "/myPortfolio/static/js/main.c930c404.js.map",
+    "main.d3049d6c.js.map": "/myPortfolio/static/js/main.d3049d6c.js.map",
     "487.bb36206c.chunk.css.map": "/myPortfolio/static/css/487.bb36206c.chunk.css.map",
-    "487.e5913094.chunk.js.map": "/myPortfolio/static/js/487.e5913094.chunk.js.map",
+    "487.e12dc1be.chunk.js.map": "/myPortfolio/static/js/487.e12dc1be.chunk.js.map",
     "990.c6a7ee28.chunk.css.map": "/myPortfolio/static/css/990.c6a7ee28.chunk.css.map",
-    "990.ce45beec.chunk.js.map": "/myPortfolio/static/js/990.ce45beec.chunk.js.map"
+    "990.fad5712a.chunk.js.map": "/myPortfolio/static/js/990.fad5712a.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.dc7a9826.css",
-    "static/js/main.c930c404.js"
+    "static/js/main.d3049d6c.js"
   ]
 }
