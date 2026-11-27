@@ -131,6 +131,17 @@ https://fontawesome.com/icons?d=gallery */
       fontAwesomeClassname: "fab fa-docker"
     }
   ],
+  // In src/portfolio.js inside skillsSection:
+  skillBars: [
+    {name: "React / Next.js", level: 90},
+    {name: "Go", level: 90},
+    {name: "Python", level: 75},
+    {name: "Java / Spring Boot", level: 85},
+    {name: "PostgreSQL / Redis", level: 75},
+    {name: "AWS", level: 80},
+    {name: "CI/CD ", level: 80},
+    {name: "Git / GitHub", level: 70}
+  ],
   display: true // Set false to hide this section, defaults to true
 };
 
