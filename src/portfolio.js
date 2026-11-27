@@ -371,7 +371,7 @@ const achievementSection = {
     {
       title: "Machine Learning – Stanford University",
       subtitle:
-        "Developed a Google Assistant Action JavaScript Guru that is available on 2 Billion devices world wide.",
+        "Built a strong foundation in supervised and unsupervised learning, model evaluation, and optimization algorithms.",
       image: require("./assets/images/coursera.png"),
       imageAlt: "Google Assistant Action Logo",
       footerLink: [
@@ -381,10 +381,23 @@ const achievementSection = {
         }
       ]
     },
-
+    {
+      title: "Go for Developers",
+      subtitle:
+        "Learned Practical Techniques for Effective Coding (Linkedin Course)",
+      image: require("./assets/images/go_logo.jpeg"),
+      imageAlt: "Go Language",
+      footerLink: [
+        {
+          name: "Certification",
+          url: "https://drive.google.com/file/d/1Wt780XYY8fYRrUy1F4NQvF_1c2atLSJa/view"
+        }
+      ]
+    },
     {
       title: "Applied Concurrency in Go",
-      subtitle: "Completed Certifcation from SMIT for PWA Web App Development",
+      subtitle:
+        "Completed Certifcation from SMIT for PWA Web App Development (Linkedin Course)",
       image: require("./assets/images/go_logo.jpeg"),
       imageAlt: "Go Language",
       footerLink: [
