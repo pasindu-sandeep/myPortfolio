@@ -2,29 +2,45 @@
 
 .experience-details {
   min-height: 100vh;
-  padding: 2rem 5%;
+  padding: 2.5rem 5%;
   box-sizing: border-box;
 }
 
 .experience-details-back {
-  background: transparent;
-  border: 0;
+  align-items: center;
+  background: $lightBackground2;
+  border: 1px solid $lightBorder1;
+  border-radius: 999px;
   color: $buttonColor;
   cursor: pointer;
+  display: inline-flex;
   font: inherit;
-  padding: 0.5rem 0;
+  font-weight: 600;
+  gap: 0.5rem;
+  padding: 0.65rem 1rem;
+  transition: border-color 0.2s ease, box-shadow 0.2s ease, transform 0.2s ease;
+}
+
+.experience-details-back:hover {
+  border-color: $buttonColor;
+  box-shadow: 0 6px 18px $lightBoxShadow;
+  transform: translateY(-1px);
+}
+
+.experience-details-back:focus-visible {
+  outline: 3px solid $buttonColor;
+  outline-offset: 3px;
 }
 
 .experience-details-card {
   background: $lightBackground2;
   border: 1px solid $lightBorder1;
-  border-radius: 10px;
+  border-radius: 18px;
   box-shadow: $lightBoxShadowDark 0 10px 30px -15px;
   color: $textColor;
-  margin: 3rem auto;
-  max-width: 800px;
-  padding: 3rem;
-  text-align: center;
+  margin: 1.5rem auto 0;
+  max-width: 960px;
+  padding: clamp(1.5rem, 4vw, 3rem);
 }
 
 .dark-mode .experience-details-card {
@@ -32,50 +48,128 @@
   color: $textColorDark;
 }
 
+.dark-mode .experience-details-back {
+  background: $darkBackground;
+  border-color: rgba(255, 255, 255, 0.2);
+  color: $textColorDark;
+}
+
+.experience-details-header {
+  align-items: center;
+  border-bottom: 1px solid $lightBorder1;
+  display: flex;
+  gap: 2rem;
+  padding-bottom: 2rem;
+}
+
+.dark-mode .experience-details-header,
+.dark-mode .experience-description-bullets {
+  border-color: rgba(255, 255, 255, 0.12);
+}
+
 .experience-details-logo {
   border-radius: 50%;
-  height: 9rem;
+  height: 7.5rem;
   object-fit: cover;
-  width: 9rem;
+  width: 7.5rem;
+  flex: 0 0 auto;
+  box-shadow: 0 8px 24px $lightBoxShadowDarker;
+}
+
+.experience-details-heading {
+  min-width: 0;
 }
 
 .experience-details-date {
   color: $subTitle;
   font-weight: 600;
-  margin-bottom: 2rem;
+  margin: 0 0 0.5rem;
 }
 
 .experience-details-card h1 {
-  margin-bottom: 0.5rem;
+  font-size: clamp(2rem, 5vw, 3rem);
+  line-height: 1.1;
+  margin: 0 0 0.5rem;
 }
 
-.experience-details-card h2 {
+.experience-details-company {
+  color: $subTitle;
   font-size: 1.4rem;
   font-weight: 600;
-  margin-top: 0;
+  margin: 0;
 }
 
-.experience-details-description {
+.experience-description-bullets {
+  border-bottom: 1px solid $lightBorder1;
   line-height: 1.7;
-  margin: 2rem auto;
-  max-width: 650px;
+  padding: 2rem 0;
 }
 
-.experience-details-card ul {
+.experience-description-bullets h2,
+.experience-details-skills h2 {
+  font-size: 1.35rem;
+  margin: 0 0 1rem;
+}
+
+.experience-description-bullets ul {
   line-height: 1.7;
-  margin: 0 auto;
-  max-width: 650px;
+  margin: 0;
   padding-left: 1.5rem;
-  text-align: left;
+}
+
+.experience-description-bullets li + li {
+  margin-top: 0.75rem;
+}
+
+.experience-details-skills {
+  padding-top: 2rem;
+}
+
+.experience-details-skills .experience-card-skills {
+  justify-content: flex-start;
+  margin: 0;
+}
+
+.experience-details-empty {
+  background: $lightBackground2;
+  border: 1px solid $lightBorder1;
+  border-radius: 18px;
+  margin: 1.5rem auto 0;
+  max-width: 960px;
+  padding: 3rem;
+  text-align: center;
+}
+
+.dark-mode .experience-details-empty {
+  background: $darkBackground;
+  border-color: rgba(255, 255, 255, 0.12);
 }
 
 @media (max-width: 768px) {
   .experience-details {
-    padding: 1.5rem;
+    padding: 1.25rem;
   }
 
   .experience-details-card {
-    margin-top: 2rem;
-    padding: 2rem 1.5rem;
+    border-radius: 14px;
+  }
+
+  .experience-details-header {
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 1.25rem;
+  }
+
+  .experience-details-logo {
+    height: 6rem;
+    width: 6rem;
+  }
+
+  .experience-details-card h1 {
+    font-size: 1.75rem;
+  }
+
+  .experience-details-company {
+    font-size: 1.15rem;
   }
 }

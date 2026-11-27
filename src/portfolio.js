@@ -151,9 +151,16 @@ const educationInfo = {
       schoolName: "University of Moratuwa",
       logo: require("./assets/images/uom_logo.png"),
       subHeader:
-        "BSc. Eng. (Hons) in Electronic and Telecommunication Engineering ",
+        "BSc. Eng. (Hons) in Electronic and Telecommunication Engineering",
       duration: "August 2021 - July 2025",
       desc: "Data Structures and Algorithms, Modular Software Design, Internet of Things, Deep Learning for Vision, Networking Foundamentals"
+    },
+    {
+      schoolName: "St. Aloysius College, Ratnapura ",
+      logo: require("./assets/images/school_logo.png"),
+      subHeader: "G.C.E. A/L, Physical Science",
+      duration: "August 2017 - August 2019",
+      desc: "District Rank 9, Island Rank 261"
     }
   ]
 };
@@ -220,8 +227,15 @@ const workExperiences = {
         }
       ],
       responsibilities: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+        "Developed secure Go-based APIs following hexagonal architecture to improve maintainability, imple- \
+          mented Kafka-based inter-service communication, and integrated PostgreSQL for data retrieval and \
+          Redis for caching to optimize performance",
+        "Used JWT based authentication and role-based permissions to maintain the high security of the \
+          admin panne",
+        "Designed Functional Specification Documents (FSDs) for backend services, covering system require- \
+          ments, API specifications, workflows, and technical implementation details",
+        "Developed React.js based user interfaces using Tailwind CSS and integrated REST APIs with admin \
+           backend service"
       ]
     },
     {
@@ -231,21 +245,33 @@ const workExperiences = {
       date: "June 2024 – June 2025",
       techstack: [
         {
-          skillName: "html-5",
-          fontAwesomeClassname: "fab fa-html5"
+          skillName: "Java",
+          fontAwesomeClassname: "fab fa-java"
         },
         {
-          skillName: "css3",
-          fontAwesomeClassname: "fab fa-css3-alt"
+          skillName: "React",
+          fontAwesomeClassname: "fab fa-react"
         },
         {
-          skillName: "sass",
-          fontAwesomeClassname: "fab fa-sass"
+          skillName: "Tailwind CSS",
+          fontAwesomeClassname: "fas fa-wind"
+        },
+        {
+          skillName: "AWS",
+          fontAwesomeClassname: "fab fa-aws"
+        },
+        {
+          skillName: "GitHub",
+          fontAwesomeClassname: "fab fa-github"
         }
       ],
       responsibilities: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+        "Tableside Ordering Web Application",
+        "Developed a web application for tableside ordering, enabling customers to browse menus using QR \
+        codes, place orders, and make payments effortlessly",
+        "The application features QR-based menu browsing for easy access, real-time order tracking, and a \
+        shared cart for collaborative group dining. It also integrates the Lia Chatbot for seamless customer \
+        interaction and instant assistance"
       ]
     },
     {
@@ -255,21 +281,22 @@ const workExperiences = {
       date: "November 2023 – May 2024",
       techstack: [
         {
-          skillName: "html-5",
-          fontAwesomeClassname: "fab fa-html5"
+          skillName: "C++",
+          fontAwesomeClassname: "fas fa-code"
         },
         {
-          skillName: "css3",
-          fontAwesomeClassname: "fab fa-css3-alt"
+          skillName: "C#",
+          fontAwesomeClassname: "fas fa-code"
         },
         {
-          skillName: "sass",
-          fontAwesomeClassname: "fab fa-sass"
+          skillName: ".NET",
+          fontAwesomeClassname: "fab fa-microsoft"
         }
       ],
       responsibilities: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+        "Developed a Windows application using the .NET Framework, with a backend C++ driver compiled \
+         into a dynamic link library (DLL) for USB barcode scanner communication",
+        "..."
       ]
     }
   ]
@@ -342,29 +369,29 @@ const achievementSection = {
       ]
     },
     {
-      title: "Google Assistant Action",
+      title: "Machine Learning – Stanford University",
       subtitle:
         "Developed a Google Assistant Action JavaScript Guru that is available on 2 Billion devices world wide.",
-      image: require("./assets/images/googleAssistantLogo.webp"),
+      image: require("./assets/images/coursera.png"),
       imageAlt: "Google Assistant Action Logo",
       footerLink: [
         {
-          name: "View Google Assistant Action",
-          url: "https://assistant.google.com/services/a/uid/000000100ee688ee?hl=en"
+          name: "Certification",
+          url: "https://www.coursera.org/account/accomplishments/verify/ANFLR5TTMG4C?utm_source=link&utm_medium=certificate&utm_content=cert_image&utm_campaign=sharing_cta&utm_product=course"
         }
       ]
     },
 
     {
-      title: "PWA Web App Developer",
+      title: "Applied Concurrency in Go",
       subtitle: "Completed Certifcation from SMIT for PWA Web App Development",
-      image: require("./assets/images/pwaLogo.webp"),
-      imageAlt: "PWA Logo",
+      image: require("./assets/images/go_logo.jpeg"),
+      imageAlt: "Go Language",
       footerLink: [
         {name: "Certification", url: ""},
         {
           name: "Final Project",
-          url: "https://pakistan-olx-1.firebaseapp.com/"
+          url: "https://drive.google.com/file/d/1Wt780XYY8fYRrUy1F4NQvF_1c2atLSJa/view"
         }
       ]
     }
