@@ -354,7 +354,7 @@ const bigProjects = {
       ]
     },
     {
-      images: [require("./assets/images/bms1.png")],
+      images: [require("./assets/images/peace_cottages3.png")],
       projectName: "Segment-Based Train Seat Booking System",
       projectDesc:
         "A train seat booking system that lets a single seat be reserved multiple times for different, \
@@ -372,7 +372,7 @@ const bigProjects = {
         require("./assets/images/peace_cottages2.png"),
         require("./assets/images/peace_cottages3.png")
       ],
-      projectName: "Hostel Management System",
+      projectName: "Hotel Management System",
       projectDesc:
         "Developed a hotel management system for 'Peace Cottages' for hotel details showcasing. Built using Next.js.",
       footerLink: [
