@@ -1,14 +1,18 @@
 {
   "files": {
-    "main.css": "/myPortfolio/static/css/main.d6b0b6ce.css",
-    "main.js": "/myPortfolio/static/js/main.9b22fd28.js",
+    "main.css": "/myPortfolio/static/css/main.5631c38c.css",
+    "main.js": "/myPortfolio/static/js/main.5ce0c1ca.js",
     "static/css/487.bb36206c.chunk.css": "/myPortfolio/static/css/487.bb36206c.chunk.css",
     "static/js/487.e12dc1be.chunk.js": "/myPortfolio/static/js/487.e12dc1be.chunk.js",
     "static/css/990.c6a7ee28.chunk.css": "/myPortfolio/static/css/990.c6a7ee28.chunk.css",
-    "static/js/990.72167564.chunk.js": "/myPortfolio/static/js/990.72167564.chunk.js",
+    "static/js/990.5115aadb.chunk.js": "/myPortfolio/static/js/990.5115aadb.chunk.js",
+    "static/media/peace_cottages.png": "/myPortfolio/static/media/peace_cottages.b9e298a1bef3bb18e358.png",
+    "static/media/bms2.png": "/myPortfolio/static/media/bms2.04aceeb4f10a72e99404.png",
     "static/media/profile.png": "/myPortfolio/static/media/profile.3112d9dd0072fe842d2a.png",
+    "static/media/peace_cottages3.png": "/myPortfolio/static/media/peace_cottages3.8f6dbde44e16c0f28928.png",
     "static/media/school_logo.png": "/myPortfolio/static/media/school_logo.89a10b25c0988353247b.png",
     "static/media/bms1.png": "/myPortfolio/static/media/bms1.ef74e0959dd3dff43ad3.png",
+    "static/media/peace_cottages2.png": "/myPortfolio/static/media/peace_cottages2.5385d1f089a82ee15be1.png",
     "static/media/Montserrat-Regular.ttf": "/myPortfolio/static/media/Montserrat-Regular.3cd786652b8a2e9d41f2.ttf",
     "static/media/sunteclanka.png": "/myPortfolio/static/media/sunteclanka.62798823c41213e14165.png",
     "static/media/aws-solution_architect.png": "/myPortfolio/static/media/aws-solution_architect.b921da3aeeb487baa4dc.png",
@@ -22,15 +26,15 @@
     "static/media/go_logo.jpeg": "/myPortfolio/static/media/go_logo.6bd26374df7d7f764bc0.jpeg",
     "static/media/kast_logo.png": "/myPortfolio/static/media/kast_logo.f3b2da307af3fce0258d.png",
     "index.html": "/myPortfolio/index.html",
-    "main.d6b0b6ce.css.map": "/myPortfolio/static/css/main.d6b0b6ce.css.map",
-    "main.9b22fd28.js.map": "/myPortfolio/static/js/main.9b22fd28.js.map",
+    "main.5631c38c.css.map": "/myPortfolio/static/css/main.5631c38c.css.map",
+    "main.5ce0c1ca.js.map": "/myPortfolio/static/js/main.5ce0c1ca.js.map",
     "487.bb36206c.chunk.css.map": "/myPortfolio/static/css/487.bb36206c.chunk.css.map",
     "487.e12dc1be.chunk.js.map": "/myPortfolio/static/js/487.e12dc1be.chunk.js.map",
     "990.c6a7ee28.chunk.css.map": "/myPortfolio/static/css/990.c6a7ee28.chunk.css.map",
-    "990.72167564.chunk.js.map": "/myPortfolio/static/js/990.72167564.chunk.js.map"
+    "990.5115aadb.chunk.js.map": "/myPortfolio/static/js/990.5115aadb.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.d6b0b6ce.css",
-    "static/js/main.9b22fd28.js"
+    "static/css/main.5631c38c.css",
+    "static/js/main.5ce0c1ca.js"
   ]
 }
