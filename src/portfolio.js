@@ -328,7 +328,7 @@ const bigProjects = {
   subtitle: "SOME STARTUPS AND COMPANIES THAT I HELPED TO CREATE THEIR TECH",
   projects: [
     {
-      image: require("./assets/images/sunteclanka.png"),
+      images: [require("./assets/images/sunteclanka.png")],
       projectName: "SuntecLanka",
       projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
       footerLink: [
@@ -340,13 +340,45 @@ const bigProjects = {
       ]
     },
     {
-      image: require("./assets/images/bms1.png"),
+      images: [
+        require("./assets/images/bms1.png"),
+        require("./assets/images/bms2.png")
+      ],
       projectName: "Baggage Monitoring System",
       projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
       footerLink: [
         {
           name: "LinkedIn Post",
           url: "https://lnkd.in/p/gwzNcmHb"
+        }
+      ]
+    },
+    {
+      images: [require("./assets/images/bms1.png")],
+      projectName: "Segment-Based Train Seat Booking System",
+      projectDesc:
+        "A train seat booking system that lets a single seat be reserved multiple times for different, \
+         non-overlapping journey segmen",
+      footerLink: [
+        {
+          name: "Code",
+          url: "https://lnkd.in/p/gwzNcmHb"
+        }
+      ]
+    },
+    {
+      images: [
+        require("./assets/images/peace_cottages.png"),
+        require("./assets/images/peace_cottages2.png"),
+        require("./assets/images/peace_cottages3.png")
+      ],
+      projectName: "Hostel Management System",
+      projectDesc:
+        "Developed a hotel management system for 'Peace Cottages' for hotel details showcasing. Built using Next.js.",
+      footerLink: [
+        {
+          name: "Website",
+          url: "https://yalapeacecottages.com/"
         }
       ]
     }
